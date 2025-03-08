@@ -1,0 +1,99 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+005     puerto_a
+005.1   sensorder
+005.2   sensorizq
+006     puerto_b
+006.1   habilitacion_der
+006.2   habilitacion_izq
+006.3   motor_der
+006.4   motor_izq
+008     PSP_DATA
+008     lcd
+009     puerto_e
+009.0   marcaizq
+009.2   marcader
+015     CCP_1_LOW
+015-016 CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B-01C CCP_2
+01C     CCP_2_HIGH
+021     lcd_init.i
+021     linea_2.@SCRATCH
+021     MAIN.@SCRATCH
+022     lcd_putc.c
+022     lcd_init.@SCRATCH
+022     linea_2.@SCRATCH
+022     MAIN.@SCRATCH
+023     lcd_gotoxy.x
+023     @delay_ms1.P1
+023     MAIN.@SCRATCH
+024     lcd_gotoxy.y
+024     MAIN.@SCRATCH
+025     lcd_gotoxy.address
+026     lcd_gotoxy.@SCRATCH
+027     lcd_send_byte.address
+028     lcd_send_byte.n
+029     lcd_read_byte.low
+029     lcd_send_byte.@SCRATCH
+02A     lcd_send_nibble.n
+02A     lcd_read_byte.high
+02B     lcd_read_byte.@SCRATCH
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+085     tris_a
+086     tris_b
+089     tris_e
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+007F  @delay_ms1
+0004  LCD_INIT_STRING
+00A1  lcd_read_byte
+0094  lcd_send_nibble
+00A0  lcd_send_byte
+00DA  lcd_init
+0106  lcd_gotoxy
+0118  lcd_putc
+013D  linea_2
+000C  @const94
+0017  @const96
+0023  @const98
+0030  @const100
+003E  @const102
+01EC  MAIN
+004D  @const106
+0057  @const116
+006C  @const118
+01EC  @cinit
+
+Project Files:
+    siguelineas.c
+    ..\..\..\..\..\Program Files\PICC\devices\16F877.h
+    ..\..\..\..\..\Program Files\PICC\drivers\LCD.c
+
+Units:
+    C:\Users\javivi\Desktop\rastreador final\programa\siguelineas.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F877
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      0
+    Short,Int,Long: 1,8,16
+
+Output Files:
+    Errors:      C:\Users\javivi\Desktop\rastreador final\programa\siguelineas.err
+    Ext Symbols: C:\Users\javivi\Desktop\rastreador final\programa\siguelineas.esym
+    INHX8:       C:\Users\javivi\Desktop\rastreador final\programa\siguelineas.hex
+    Symbols:     C:\Users\javivi\Desktop\rastreador final\programa\siguelineas.sym
+    List:        C:\Users\javivi\Desktop\rastreador final\programa\siguelineas.lst
+    Debug/COFF:  C:\Users\javivi\Desktop\rastreador final\programa\siguelineas.cof
+    Project:     C:\Users\javivi\Desktop\rastreador final\programa\siguelineas.PJT
+    Call Tree:   siguelineas.tre
+    Statistics:  siguelineas.sta

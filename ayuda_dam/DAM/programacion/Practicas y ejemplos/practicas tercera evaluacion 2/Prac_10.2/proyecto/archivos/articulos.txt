@@ -1,0 +1,6 @@
+1:Bufanda:12
+2:Jersei:10
+3:Calendario:5
+4:Abrigo:30
+27:Pantalon:20
+15:Boligrafo:3

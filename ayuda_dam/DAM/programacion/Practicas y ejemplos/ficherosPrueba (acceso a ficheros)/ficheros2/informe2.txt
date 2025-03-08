@@ -1,0 +1,14 @@
+*** INFORME DE BAJAS ***
+
+Provincia: alhabi
+  Muertos: 333
+  Heridos: 1000
+
+Provincia: mufasa
+  Muertos: 100
+  Heridos: 500
+
+Provincia: algabara
+  Muertos: 100
+  Heridos: 500
+

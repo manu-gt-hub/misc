@@ -1,0 +1,10 @@
+:mesa:tavola:
+:coche:macchina:
+:ordenador:computer:
+:el:il:
+:broma:scherzo:
+:bigote:baffi:
+:vaso:bicchiere:
+:nunca:mai:
+:pajaro:ucello:
+:lento:piano:

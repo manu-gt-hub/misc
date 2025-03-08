@@ -1,0 +1,3 @@
+alhabi:Muertos-333:Heridos-1000
+mufasa:Muertos-100:Heridos-500
+algabara:Muertos-100:Heridos-500

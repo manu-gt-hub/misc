@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejercicio 5</title>
+	<style type="text/css">
+		thead
+		{
+		    background-color: rgb(59,89,152);
+			color: white;
+			border-collapse: collapse;
+			width: 1000px;
+			height: 1000px;
+		}
+		table
+		{
+		    border-collapse: collapse;
+		}
+		td.encabezado
+		{
+		    color:;
+		}
+		td.espacio
+		{
+			padding-left: 30px;
+		}
+		td.campos
+		{
+	        text-align:right;
+		}
+		tbody
+		{
+		    background-color: rgb(216,221,235);
+		}
+		.botonazul
+		{
+		    background-color: rgb(98,122,173);
+		}
+		.botonverde
+		{
+		    background-color: green;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+    <form method="post" action="enviocorrecto.html" name="facebook">
+	<table>
+		<thead>
+			<tr>
+			   <td >Direccion de correo electronico
+			   </td>
+			   <td colspan="2" class="espacio">contraseña
+			   </td>
+			</tr>
+			<tr>
+			   <td><input type="text" name="correo" value="" autofocus="autofocus">
+			   </td>
+			   <td class="espacio"><input type="password" name="contrasena">
+			   </td>
+			   <td><input class="botonazul" type="submit" name="Enviar" value="Acceder">
+			   </td>
+			</tr>
+			<tr>
+			   <td><input type="checkbox" id="1" name="sesion"><label for="1">No cerrar sesion</label>
+			   </td>
+			   <td class="espacio">¿olvidaste tu contraseña?
+			   </td>
+			   <td>
+			   </td>
+			</tr>
+		</thead>
+	</form >
+	<form method="post" action="enviocorrecto.html" name="facebookreg">
+		<tbody>
+			<tr>
+			    <td class="registro" colspan="3">Regístrate
+				</td>
+			</tr>
+			<tr>
+			    <td colspan="3">Es gratis
+				</td>
+			</tr>
+			<tr>
+			    <td colspan="3"><hr>
+				</td>
+			</tr>
+			<tr>
+			    <td class="campos">Nombre
+				</td >
+				<td colspan="2"><input type="text" name="" value="">
+				</td>
+			</tr>
+			<tr>
+			    <td class="campos">Apellidos
+				</td>
+				<td colspan="2"><input type="text" name="" value="">
+				</td>
+			</tr>
+			<tr>
+			    <td class="campos">Tu correo</br>electronico
+				</td>
+				<td colspan="2"><input type="text" name="" value="">
+				</td>
+			</tr>
+			<tr>
+			    <td class="campos">Vuelve a escribir</br>tu correo
+				</td>
+				<td colspan="2"><input type="text" name="" value="">
+				</td>
+			</tr>
+			<tr>
+			    <td class="campos">contraseña
+				</td>
+				<td colspan="2"><input type="text" name="" value="">
+				</td>
+			</tr>
+			<tr>
+			    <td class="campos">Vuelve a escribir</br>tu contraseña
+				</td>
+				<td colspan="2"><input type="text" name="" value="">
+				</td>
+			</tr>
+			<tr>
+			    <td class="campos">Sexo
+				</td>
+				<td colspan="2"><select>
+				         <option>Seleccione una opcion</option><option>Hombre</option><option>Mujer</option>
+				    </select>
+				</td>
+			</tr>
+			<tr>
+			    <td class="campos">Fecha de nacimiento
+				</td>
+				<td colspan="2"><input type="date" name="" value=""></input>
+				</td>
+			</tr>
+			<tr>
+			    <td>
+				</td>
+				<td colspan="2">¿Porque tengo que proporcionar mi fecha de nacimiento?
+				</td>
+			</tr>
+			<tr>
+			    <td>
+				</td>
+				<td colspan="2"><input class="botonverde" type="submit" name="reg" value="Registrarse"></input>
+				</td>
+			</tr>
+			<tr>
+			    <td colspan="3"><hr>
+				</td>
+			</tr>
+			<tr>
+			    <td colspan="3">Crear una pagina para una celebridad
+				</td>
+			</tr>
+			
+		</tbody>
+	</table>
+	</form>
+</body>
+</html>

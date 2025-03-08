@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejercicio 2</title>
+	<style type="text/css">
+	    /* estilo que solo afecta a la tabla */
+		table
+		{
+		   border-collapse: collapse;
+		}
+		.bordegordo
+		{
+		   border-width: 4px;
+		   border-color: blue;
+		   /* el border style es imprescindible para que se carguen el resto de atributos*/
+		   border-style: solid;
+		}
+		/* estilo para th */
+		th
+		{
+		   background-color:#000099;
+		   color:white;
+		   font-size:15px;
+		   font-family:"times new roman";
+		   vertical-align:bottom;
+		   border-color: rgb(41,26,132);
+		   border-style: solid;
+		   border-width: 1px;
+		   height: 35px;
+		}
+		
+		.estiloizquierda
+		{
+		   background-color:#99FFFF;
+		   width: 200px;
+		}
+		.estilocentro
+		{
+		   background-color:red;
+		   color:white;
+		   text-align:right;
+		   
+		}
+		.estiloderecha
+		{
+		   text-align:right;
+		}
+		td
+		{
+		   border-color:grey;
+		   border-style:solid;
+		}
+	</style>
+	    
+</head>
+<body>
+     <table >
+			
+		<thead class="bordegordo">
+			<tr>
+				<th>Nombre y Apellidos</th>
+				<th>Direccion</th>
+				<th>DNI</th>
+				<th>Altura</th>
+				<th>Peso</th>
+				<th>Edad</th>
+			</tr>
+		</thead>
+		<tbody class="bordegordo">
+			<tr>
+				<td class="estiloizquierda">Andres Lopez</td>
+				<td class="estiloizquierda">Calle Adelfa,1</td>
+				<td class="estilocentro">12345678F</td>
+				<td class="estiloderecha">1,86</td>
+				<td class="estiloderecha"></td>
+				<td class="estiloderecha">28</td>
+			</tr>
+			<tr>
+				<td class="estiloizquierda">Pepe Gomez</td>
+				<td class="estiloizquierda">Calle Piquillo,6</td>
+				<td class="estilocentro">56349F</td>
+				<td class="estiloderecha">1,46</td>
+				<td class="estiloderecha">34</td>
+				<td class="estiloderecha">31</td>
+			</tr>
+			<tr>
+				<td class="estiloizquierda">Pepe Gomez</td>
+				<td class="estiloizquierda">Calle Adelfa,1</td>
+				<td class="estilocentro">12345678F</td>
+				<td class="estiloderecha">1,86</td>
+				<td class="estiloderecha">78</td>
+				<td class="estiloderecha">28</td>
+			</tr>
+			<tr>
+				<td class="estiloizquierda">Pepe Gomez</td>
+				<td class="estiloizquierda">Calle Adelfa,1</td>
+				<td class="estilocentro">12345678F</td>
+				<td class="estiloderecha">1,86</td>
+				<td class="estiloderecha">23</td>
+				<td class="estiloderecha">28</td>
+			</tr>
+		</tbody>
+		
+	 </table>
+</body>
+</html>

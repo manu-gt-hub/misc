@@ -1,0 +1,23 @@
+
+G:\JUANXXIII   2013-2014\2.ProgServiciosYProcesos\eval1\T1\ejemplos\3.ejBatch>echo Hola "Super L¢pez" 
+Hola "Super L¢pez"
+
+G:\JUANXXIII   2013-2014\2.ProgServiciosYProcesos\eval1\T1\ejemplos\3.ejBatch>echo Ejemplo de manejo de ficheros batch desde Java   
+Ejemplo de manejo de ficheros batch desde Java  
+
+G:\JUANXXIII   2013-2014\2.ProgServiciosYProcesos\eval1\T1\ejemplos\3.ejBatch>dir
+ El volumen de la unidad G es J23-13-14
+ El n£mero de serie del volumen es: 5093-98FA
+
+ Directorio de G:\JUANXXIII   2013-2014\2.ProgServiciosYProcesos\eval1\T1\ejemplos\3.ejBatch
+
+26/09/2013  13:22    <DIR>          .
+26/09/2013  13:22    <DIR>          ..
+26/09/2013  13:25             3.716 build.xml
+23/09/2013  14:17                85 manifest.mf
+23/09/2013  14:17    <DIR>          nbproject
+23/09/2013  14:17    <DIR>          src
+26/09/2013  13:39    <DIR>          res
+26/09/2013  13:40    <DIR>          build
+               2 archivos          3.801 bytes
+               6 dirs   4.567.998.464 bytes libres

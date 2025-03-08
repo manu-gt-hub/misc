@@ -1,0 +1,1228 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 12">
+<meta name=Originator content="Microsoft Word 12">
+<link rel=File-List href="PRACTICAS%20SQL%20DML_archivos/filelist.xml">
+<link rel=Edit-Time-Data href="PRACTICAS%20SQL%20DML_archivos/editdata.mso">
+<link rel=OLE-Object-Data href="PRACTICAS%20SQL%20DML_archivos/oledata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>geruc</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>geruc</o:LastAuthor>
+  <o:Revision>19</o:Revision>
+  <o:TotalTime>82</o:TotalTime>
+  <o:Created>2011-10-08T21:43:00Z</o:Created>
+  <o:LastSaved>2011-10-13T08:59:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>1223</o:Words>
+  <o:Characters>6728</o:Characters>
+  <o:Lines>56</o:Lines>
+  <o:Paragraphs>15</o:Paragraphs>
+  <o:CharactersWithSpaces>7936</o:CharactersWithSpaces>
+  <o:Version>12.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=dataStoreItem href="PRACTICAS%20SQL%20DML_archivos/item0017.xml"
+target="PRACTICAS%20SQL%20DML_archivos/props0018.xml">
+<link rel=themeData href="PRACTICAS%20SQL%20DML_archivos/themedata.thmx">
+<link rel=colorSchemeMapping
+href="PRACTICAS%20SQL%20DML_archivos/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>110</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>ES</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="--"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520092929 1073786111 9 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	mso-themecolor:hyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+@page Section1
+	{size:841.9pt 595.3pt;
+	mso-page-orientation:landscape;
+	margin:2.0cm 2.0cm 2.0cm 2.0cm;
+	mso-header-margin:35.45pt;
+	mso-footer-margin:35.45pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabla normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+table.MsoTableGrid
+	{mso-style-name:"Tabla con cuadrícula";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-priority:59;
+	mso-style-unhide:no;
+	border:solid black 1.0pt;
+	mso-border-themecolor:text1;
+	mso-border-alt:solid black .5pt;
+	mso-border-themecolor:text1;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid black;
+	mso-border-insideh-themecolor:text1;
+	mso-border-insidev:.5pt solid black;
+	mso-border-insidev-themecolor:text1;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="4098"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ES link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><u>PRACTICAS SQL DML<o:p></o:p></u></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><u>PRACTICA 1: DADO EL SIGUIENTE ESQUEMA RELACIONAL<o:p></o:p></u></b></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid black .5pt;
+ mso-border-themecolor:text1;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=981 valign=top style='width:735.5pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+   coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+   filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:454.5pt;
+   height:158.25pt' o:ole="">
+   <v:imagedata src="PRACTICAS%20SQL%20DML_archivos/image001.png" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=606 height=211
+  src="PRACTICAS%20SQL%20DML_archivos/image002.jpg" v:shapes="_x0000_i1025"><![endif]><!--[if gte mso 9]><xml>
+   <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1025"
+    DrawAspect="Content" ObjectID="_1380008705">
+   </o:OLEObject>
+  </xml><![endif]--></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNoSpacing>1.1. Obtener los nombres de los productos de la
+tienda.<span style='mso-spacerun:yes'>   </span></p>
+
+<p class=MsoNoSpacing>1.2 Obtener los nombres y los precios <span class=GramE>de
+los pro</span> ductos de la tienda.<span style='mso-spacerun:yes'>   </span></p>
+
+<p class=MsoNoSpacing>1.3 Obtener el nombre de los productos cuyo precio sea
+menor o igual a 200.</p>
+
+<p class=MsoNoSpacing>1.4 Obtener todos los datos de los artículos cuyo precio
+esté entre los 60 y los 120.</p>
+
+<p class=MsoNoSpacing>1.5 Obtener el nombre y el precio en pesetas (es decir,
+el precio en euros multiplicado por 166’386)<span style='mso-spacerun:yes'>  
+</span></p>
+
+<p class=MsoNoSpacing>1.6 Seleccionar el precio medio de todos los
+productos.<span style='mso-spacerun:yes'>   </span></p>
+
+<p class=MsoNoSpacing>1.7 Obtener el precio medio de los artículos cuyo código
+de fabrican te sea 2.<span style='mso-spacerun:yes'>   </span></p>
+
+<p class=MsoNoSpacing>1.8 Obtener el número de artículos cuyo precio sea mayor
+o igual a 180</p>
+
+<p class=MsoNoSpacing>1.9 Obtener el nombre y precio de los artículos cuyo
+precio sea mayor o igual a 180 y ordenarlos descendentemente por precio, y
+luego ascendentemente por nombre.<span style='mso-spacerun:yes'>   </span></p>
+
+<p class=MsoNoSpacing>1.10 Obtener un listado completo de artículos, incluyendo
+por cada artículo los datos del <span class=GramE>articulo</span> y de su
+fabricante.<span style='mso-spacerun:yes'>   </span></p>
+
+<p class=MsoNoSpacing>1.11 Obtener un listado de artículos, incluyendo el
+nombre del artículo, su precio, y el nombre de su fabricante.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>1.12
+Obtener el precio medio de los productos de cada fabricante, mostrando solo los
+códigos de fabricante.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>1.13
+Obtener el precio medio de los productos de cada fabricante, mostrando el
+nombre del fabricante.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>1.14
+Obtener los nombres de los fabricantes que ofrezcan productos cuyo precio medio
+sea mayor o igual a 150.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>1.15
+Obtener el nombre y precio del artículo más barato.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>1.16
+Obtener una lista con el nombre y precio de los artículos más caros de cada
+proveedor (incluyendo el nombre del proveedor).<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>1.17
+Añadir un nuevo producto: Altavoces de 70 (del fabricante 2).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>1.18
+Cambiar el nombre del producto 8 a ’Impresora Laser’<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>1.19
+Aplicar un descuento del 10 %<span style='mso-spacerun:yes'>  </span>a todos
+los productos.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>1.20
+Aplicar un descuento de 10 a todos los productos cuyo precio sea mayor o igual
+a 120.<o:p></o:p></span></p>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b
+style='mso-bidi-font-weight:normal'><u>PRACTICA 2: DADO EL SIGUIENTE ESQUEMA
+RELACIONAL<o:p></o:p></u></b></p>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid black .5pt;
+ mso-border-themecolor:text1;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=981 valign=top style='width:735.5pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNoSpacing align=center style='text-align:center'><!--[if gte vml 1]><v:shape
+   id="_x0000_i1026" type="#_x0000_t75" style='width:444pt;height:112.5pt'
+   o:ole="">
+   <v:imagedata src="PRACTICAS%20SQL%20DML_archivos/image003.png" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=592 height=150
+  src="PRACTICAS%20SQL%20DML_archivos/image004.jpg" v:shapes="_x0000_i1026"><![endif]><!--[if gte mso 9]><xml>
+   <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1026"
+    DrawAspect="Content" ObjectID="_1380008706">
+   </o:OLEObject>
+  </xml><![endif]--></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.1
+Obtener los apellidos de los empleados.<span style='mso-spacerun:yes'>  
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.2
+Obtener los apellidos de los empleados sin repeticiones.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.3
+Obtener todos los datos de los empleados que se apellidan LOPEZ<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.4
+Obtener todos los datos de los empleados que se apellidan LOPEZ y los que se
+apellidan PEREZ.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.5
+Obtener todos los datos de los empleados que trabajan para el departamento<span
+style='mso-spacerun:yes'>  </span>14.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.6
+Obtener todos los datos de los empleados que trabajan para el departamento 37 y
+para el departamento 77.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.7
+Obtener todos los datos de los empleados cuyo apellido comience por ’P’.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.8
+Obtener el presupuesto total de todos los departamentos.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.9
+Obtener el número de empleados en cada departamento.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.10
+Obtener un listado completo de empleados, incluyendo por cada empleado los
+datos del empleado y de su departamento.<span style='mso-spacerun:yes'>  
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.11
+Obtener un listado completo de empleados, incluyendo el nombre y apellidos del
+empleado junto al nombre y presupuesto de su departamento.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.12
+Obtener los nombres y apellidos de los empleados que trabajen en departamentos
+cuyo presupuesto sea mayor de 60.000<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.13
+Obtener los datos de los departamentos cuyo presupuesto es superior al pre
+supuesto medio de todos los departamentos.<span style='mso-spacerun:yes'> 
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.14
+Obtener los nombres de los departamentos que tienen más de dos empleados.<span
+style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.15
+Añadir un nuevo departamento: ‘Calidad’, con presupuesto de 40.000 y código 11.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>Añadir
+un empleado vinculado al departamento recién creado: Esther Vázquez, con DNI:
+89267109<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.16
+Aplicar un recorte presupuestario del 10 % a todos los departamentos.<span
+style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.17
+Reasignar a los empleados del departamento de investigación (código 77) al
+departamento de informática (código 14).<span style='mso-spacerun:yes'>  
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.18
+Despedir a todos los empleados que trabajan para el departamento de informática
+(código 14).<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.19
+Despedir a todos los empleados que trabajen para departamentos cuyo presupuesto
+sea superior a los 60.000<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>2.20
+Despedir a todos los empleados.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b
+style='mso-bidi-font-weight:normal'><u>PRÁCTICA 3: DADO EL SIGUIENTE ESQUEMA
+RELACIONAL<o:p></o:p></u></b></p>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid black .5pt;
+ mso-border-themecolor:text1;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=981 valign=top style='width:735.5pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNoSpacing align=center style='text-align:center'><!--[if gte vml 1]><v:shape
+   id="_x0000_i1027" type="#_x0000_t75" style='width:455.25pt;height:113.25pt'
+   o:ole="">
+   <v:imagedata src="PRACTICAS%20SQL%20DML_archivos/image005.png" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=607 height=151
+  src="PRACTICAS%20SQL%20DML_archivos/image006.jpg" v:shapes="_x0000_i1027"><![endif]><!--[if gte mso 9]><xml>
+   <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1027"
+    DrawAspect="Content" ObjectID="_1380008707">
+   </o:OLEObject>
+  </xml><![endif]--></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.1
+Obtener todos los almacenes<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.2
+Obtener todas las cajas cuyo contenido tenga un valor superior a 150.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.3
+Obtener los tipos de contenidos de las <span class=GramE>cajas .</span><span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.4
+Obtener el valor medio de todas las cajas.<span style='mso-spacerun:yes'>  
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.5
+Obtener el valor medio de las cajas de cada almacén.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.6
+Obtener los códigos de los almacenes en los cuales el valor medio de las cajas
+sea superior a 150.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.7
+Obtener el número de referencia de cada caja junto con el nombre de la ciudad
+en el que se encuentra.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.8
+Obtener el número de cajas que hay en cada almacén.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.9
+Obtener los códigos de los almacenes que están saturados (los almacenes donde
+el número de cajas es superior a la capacidad).<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.10
+Obtener los números de referencia de las cajas que están en Bilbao.<span
+style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.11
+Insertar un nuevo almacén en Barcelona con capacidad para 3 cajas.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.12
+Insertar una nueva caja, con número de referencia <span class=GramE>‘ H5R</span>
+T’, con contenido ‘Papel ’, valor 200, y situada en el almacén 2.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.13
+Rebajar el valor de todas las cajas un 15 %.<span style='mso-spacerun:yes'>  
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.14
+Rebajar un 20 % el valor de todas las cajas cuy o valor sea superior al valor
+medio de todas las <span class=GramE>cajas .</span><span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.15
+Eliminar todas las cajas cuy<span style='mso-spacerun:yes'>  </span>valor sea
+inferior a 100<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>3.16
+Vaciar el contenido de los almacenes que están saturados.<span
+style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b
+style='mso-bidi-font-weight:normal'><u>PRÁCTICA 4: DADO EL SIGUIENTE ESQUEMA
+RELACIONAL</u></b><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p></o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid black .5pt;
+ mso-border-themecolor:text1;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=981 valign=top style='width:735.5pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNoSpacing align=center style='text-align:center'><!--[if gte vml 1]><v:shape
+   id="_x0000_i1028" type="#_x0000_t75" style='width:426.75pt;height:115.5pt'
+   o:ole="">
+   <v:imagedata src="PRACTICAS%20SQL%20DML_archivos/image007.png" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=569 height=154
+  src="PRACTICAS%20SQL%20DML_archivos/image008.jpg" v:shapes="_x0000_i1028"><![endif]><!--[if gte mso 9]><xml>
+   <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1028"
+    DrawAspect="Content" ObjectID="_1380008708">
+   </o:OLEObject>
+  </xml><![endif]--><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+  minor-latin'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>4.1
+Mostrar el nombre de todas las películas.<span style='mso-spacerun:yes'>  
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>4.2
+Mostrar las distintas cali&#64257;caciones de edad que existen.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>4.3
+Mostrar todas las películas que no han sido cali&#64257;cadas.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>4.4
+Mostrar todas las salas que no proyectan ninguna película.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>4.5
+Mostrar la información de todas las salas y,<span style='mso-spacerun:yes'> 
+</span>si se proyecta alguna película en la<span style='mso-spacerun:yes'> 
+</span>sala, mostrar también la información de la película.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>4.6
+Mostrar la información de todas las películas y,<span
+style='mso-spacerun:yes'>  </span>si se proyecta en alguna sala, mostrar
+también la información de la sala.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>4.7
+Mostrar los nombres de las películas que no se proyectan en ninguna sala.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>4.8
+Añadir una nueva película ‘Uno, Dos, Tres’,<span style='mso-spacerun:yes'> 
+</span>para mayores de 7 años.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>4.9
+Hacer constar que todas las películas no cali&#64257;cadas han sido cali&#64257;cadas
+‘no recomendables para menores de 13 años'.<span style='mso-spacerun:yes'>  
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>4.10
+Eliminar todas las salas que proyectan películas recomendadas para todos los
+públicos.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b
+style='mso-bidi-font-weight:normal'><u><span style='mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'>PRÁCTICA 5: DADO EL SIGUIENTE ESQUEMA
+RELACIONAL<o:p></o:p></span></u></b></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid black .5pt;
+ mso-border-themecolor:text1;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=981 valign=top style='width:735.5pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNoSpacing align=center style='text-align:center'><!--[if gte vml 1]><v:shape
+   id="_x0000_i1029" type="#_x0000_t75" style='width:483pt;height:171pt' o:ole="">
+   <v:imagedata src="PRACTICAS%20SQL%20DML_archivos/image009.png" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=644 height=228
+  src="PRACTICAS%20SQL%20DML_archivos/image010.jpg" v:shapes="_x0000_i1029"><![endif]><!--[if gte mso 9]><xml>
+   <o:OLEObject Type="Embed" ProgID="PBrush" ShapeID="_x0000_i1029"
+    DrawAspect="Content" ObjectID="_1380008709">
+   </o:OLEObject>
+  </xml><![endif]--><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+  minor-latin'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>5.1
+Mostrar el DNI, nombre y apellidos de todos los directores.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>5.2
+Mostrar los datos de los directores que no tienen jefes.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>5.3
+Mostrar el nombre y apellidos de cada director, junto con la capacidad del
+despacho en el que se encuentra.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>5.4
+Mostrar el número de directores que hay en cada despacho.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>5.5
+Mostrar el número de directores que tiene asignado cada jefe.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>5.6
+Mostrar los nombres y apellidos de los directores junto con los de su
+jefe.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>5.7
+Mostrar el número de despachos que están sobre utilizados.<span
+style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>5.8
+Añadir un nuevo director llamado Paco Pérez, DNI 28301700, situado en el
+despacho 124.<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>5.9
+Asignar a todos los empleados apellidados Pérez un nuevo jefe con DNI
+74568521.<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;mso-pagination:none;mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black'>5.10
+Despedir a todos los directores, excepto a los que no tienen jefe. <span
+style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><span class=GramE><b
+style='mso-bidi-font-weight:normal'><u><span style='mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'>PRACTICA</span></u></b></span><b
+style='mso-bidi-font-weight:normal'><u><span style='mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'> 6 – PRÁCTICA RESUMEN<o:p></o:p></span></u></b></p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b
+style='mso-bidi-font-weight:normal'><span style='mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'>IMPORTANTE: Esta práctica debe realizarse sin
+ayuda de los apuntes.<o:p></o:p></span></b></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'>6.1 Ponga un ejemplo en el que se muestre el uso de la sentencia “SELECT”
+haciendo uso de todas sus clausulas (WHERE, GROUP BY, HAVING, ORDER).<o:p></o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'>6.2 Ponga un ejemplo en el que se muestre el uso de las cláusulas
+(INNER JOIN, LEFT JOIN Y RIGHT JOIN).<o:p></o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'>6.3 Ponga un ejemplo en el que se muestre el uso de las
+operaciones con conjuntos de datos (UNION, INTERSECT, MINUS).<o:p></o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'>6.4 Ponga un ejemplo en el que se muestre el uso de las funciones
+de columna. (COUNT, SUM, MAX, MIN, AVG)<o:p></o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'>6.5 Ponga un ejemplo en el que se muestre el uso de otros
+operadores (NULL, NOT NULL, IN, NOT IN, BETWEEN, ANY, ALL).<o:p></o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'>6.6 Ponga un ejemplo en el que se muestre el uso de la sentencia “INSERT”.<o:p></o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'>6.7 Ponga un ejemplo en el que se muestre el uso de la sentencia “UPDATE”.<o:p></o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'>6.8 Ponga un ejemplo en el que se muestre el uso de la sentencia “DELETE”.<o:p></o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNoSpacing><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>

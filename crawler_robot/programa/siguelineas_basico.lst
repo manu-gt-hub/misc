@@ -1,0 +1,128 @@
+CCS PCM C Compiler, Version 4.038, 52178               12-ene-12 12:53
+
+               Filename: C:\Users\javivi\Desktop\siguelineas\programa\siguelineas_basico.lst
+
+               ROM used: 69 words (1%)
+                         Largest free fragment is 2048
+               RAM used: 8 (2%) at main() level
+                         8 (2%) worst case
+               Stack:    0 locations
+
+*
+0000:  MOVLW  00
+0001:  MOVWF  0A
+0002:  GOTO   004
+0003:  NOP
+.................... # include <16F877.h> 
+.................... //////// Standard Header file for the PIC16F877 device //////////////// 
+.................... #device PIC16F877 
+.................... #list 
+....................  
+.................... # use delay (clock=4000000) 
+.................... # fuses XT, NOWDT, NOPUT, NOPROTECT 
+.................... #byte puerto_b=6 
+.................... #byte puerto_e=9 
+.................... #byte tris_b=0x86 
+.................... #byte tris_e=0x89 
+.................... #bit sensorder = puerto_e.0  
+.................... #bit sensorizq = puerto_e.1 
+....................  
+.................... void main() 
+.................... { 
+0004:  CLRF   04
+0005:  BCF    03.7
+0006:  MOVLW  1F
+0007:  ANDWF  03,F
+0008:  BSF    03.5
+0009:  BSF    1F.0
+000A:  BSF    1F.1
+000B:  BSF    1F.2
+000C:  BCF    1F.3
+....................    tris_e=0b00000011;  
+000D:  MOVLW  03
+000E:  MOVWF  09
+....................    tris_b=0b00000000;//designamos todo el puerto b como salida menos RB0 
+000F:  CLRF   06
+....................  
+....................    while(TRUE) 
+....................    { 
+....................       while(sensorder==0&&sensorizq==0) 
+....................       { 
+0010:  BCF    03.5
+0011:  BTFSC  09.0
+0012:  GOTO   01B
+0013:  BTFSC  09.1
+0014:  GOTO   01B
+....................          output_b(0b00011110); 
+0015:  BSF    03.5
+0016:  CLRF   06
+0017:  MOVLW  1E
+0018:  BCF    03.5
+0019:  MOVWF  06
+....................       } 
+001A:  GOTO   011
+....................       while(sensorder==1&&sensorizq==0) 
+....................       { 
+001B:  BTFSS  09.0
+001C:  GOTO   025
+001D:  BTFSC  09.1
+001E:  GOTO   025
+....................          output_b(0b00011100); 
+001F:  BSF    03.5
+0020:  CLRF   06
+0021:  MOVLW  1C
+0022:  BCF    03.5
+0023:  MOVWF  06
+....................       } 
+0024:  GOTO   01B
+....................       while(sensorder==1&&sensorizq==1) 
+....................       { 
+0025:  BTFSS  09.0
+0026:  GOTO   02F
+0027:  BTFSS  09.1
+0028:  GOTO   02F
+....................          output_b(0b00011100); 
+0029:  BSF    03.5
+002A:  CLRF   06
+002B:  MOVLW  1C
+002C:  BCF    03.5
+002D:  MOVWF  06
+....................       } 
+002E:  GOTO   025
+....................       while(sensorder==0&&sensorizq==1) 
+....................       { 
+002F:  BTFSC  09.0
+0030:  GOTO   039
+0031:  BTFSS  09.1
+0032:  GOTO   039
+....................          output_b(0b00010100); 
+0033:  BSF    03.5
+0034:  CLRF   06
+0035:  MOVLW  14
+0036:  BCF    03.5
+0037:  MOVWF  06
+....................       } 
+0038:  GOTO   02F
+....................       while(sensorder==1&&sensorizq==1) 
+....................       { 
+0039:  BTFSS  09.0
+003A:  GOTO   043
+003B:  BTFSS  09.1
+003C:  GOTO   043
+....................          output_b(0b00010100); 
+003D:  BSF    03.5
+003E:  CLRF   06
+003F:  MOVLW  14
+0040:  BCF    03.5
+0041:  MOVWF  06
+....................       } 
+0042:  GOTO   039
+....................              
+....................    } 
+0043:  GOTO   011
+....................       
+.................... } 
+0044:  SLEEP
+
+Configuration Fuses:
+   Word  1: 3F79   XT NOWDT NOPUT NOPROTECT BROWNOUT NOLVP NOCPD NOWRT NODEBUG
